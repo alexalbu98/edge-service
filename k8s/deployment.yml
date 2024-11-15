@@ -25,7 +25,7 @@ spec:
           ports:
             - containerPort: 9000
           env:
-            - name: SPRING_REDIS_HOST
+            - name: SPRING_DATA_REDIS_HOST
               value: polar-redis
             - name: CATALOG_SERVICE_URL
               value: http://catalog-service
